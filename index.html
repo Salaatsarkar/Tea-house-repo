@@ -25,16 +25,55 @@
 </head>
 <body>
     <!-- banner section -->
-    <section class="grid grid-cols-2 container mx-auto">
+    <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto">
         <div class="left-side space-y-[30px]">
             <h1 class="text-[#1C1C1C] font-extrabold text-[80px]">It's good <br> tea time at The <br> Tea House</h1>
             <p class="text-[#777777] font-medium text-[18px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
             <button class="px-4 py-5 rounded-md font-bold text-[20px] bg-linear-to-r from-[#FF8938] to-[#FF0000] text-[#FFFFFF]">Explore More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
         </div>
-        <div class="right-side">
+        <div class="right-side flex justify-end items-end relative">
             <img src="./images/banner.png" alt="">
+            <!-- rating-section -->
+            <div class="rating-section flex justify-center items-center gap-4 px-5 py-6 w-[250px] rounded-xl bg-[#FFFFFF] absolute left-55 bottom-8 shadow-2xl">
+                <img src="./images/Group 5.png" alt="">
+                <div>
+                    <h3 class="font-extrabold text-3xl text-[#1C1C1C]">5.00</h3>
+                    <p class="text-[#777777] text-base font-semibold">Trust Pilot Ratings</p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- featured section -->
+     <section class="mb-32 mt-32">
+        <div class="text-center ">
+            <h1 class="text-[#1C1C1C] font-extrabold text-[45px]">Our Featured Products</h1>
+            <p class="text-[#777777] font-medium text-base mt-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+        <div class="card-section grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center gap-6 mt-6 container mx-auto">
+            <div class="cards rounded-xl bg-linear-to-b from-gray-100 to-[rgba(244, 244, 244, 1)] py-5 px-4 text-center">
+             <img src="./images/tea-1.png" alt="milk-tea" class="mx-auto mb-2.5">
+             <h1 class="font-extrabold text-2xl text-[#1C1C1C] mb-2.5">Milk Tea</h1>
+             <p class="font-semibold text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="cards rounded-xl bg-linear-to-b from-gray-100 to-[rgba(244, 244, 244, 1)] py-5 px-4 text-center">
+             <img src="./images/tea-2.png" alt="black-tea"class="mx-auto mb-2.5" >
+             <h1 class="font-extrabold text-2xl text-[#1C1C1C] mb-2.5">Black Tea</h1>
+             <p class="font-semibold text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="cards rounded-xl bg-linear-to-b from-gray-100 to-[rgba(244, 244, 244, 1)] py-5 px-4 text-center">
+             <img src="./images/tea-3.png" alt="lemon-tea" class="mx-auto mb-2.5">
+             <h1 class="font-extrabold text-2xl text-[#1C1C1C] mb-2.5">Lemon Tea</h1>
+             <p class="font-semibold text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="cards rounded-xl bg-linear-to-b from-gray-100 to-[rgba(244, 244, 244, 1)] py-5 px-4 text-center">
+             <img src="./images/tea-4.png" alt="green-tea" class="mx-auto mb-2.5">
+             <h1 class="font-extrabold text-2xl text-[#1C1C1C] mb-2.5">Green Tea</h1>
+             <p class="font-semibold text-base text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+        </div>
+
+     </section>
 
    
     
